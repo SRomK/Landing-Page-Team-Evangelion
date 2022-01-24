@@ -1,11 +1,14 @@
 import React from "react";
-
+import FooterPage from "../component/Footer.jsx";
 //include images into your bundle
-import Navbar from "/workspace/react-hello/src/js/component/Navbar.jsx";
 
 //create your first component
 const Home = () => {
-	return <Navbar />;
+	return (
+		<div>
+			<FooterPage />
+		</div>
+	);
 };
 
 export default Home;
