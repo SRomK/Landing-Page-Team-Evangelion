@@ -8,12 +8,10 @@ const Navbar = () => {
 				<img
 					src="https://images6.fanpop.com/image/photos/38600000/-EVA-01-neon-genesis-evangelion-38625280-200-200.jpg"
 					alt="Logo"
-					width="30"
-					height="24"
 					className="logoImage"
 				/>
 
-				<h2>Team Evangelion</h2>
+				<h2 className="titleTeam">Team Evangelion</h2>
 
 				<a href="#news">Services</a>
 				<a href="#contact">Newsletter</a>
