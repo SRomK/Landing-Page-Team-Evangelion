@@ -1,23 +1,50 @@
-import react from "react";
+import React from "react";
 //import * as PropTypes from "prop-types";
 import "../../styles/Form.css";
 
 const ContactForm = () => {
 	return (
 		<>
-			<form action="submit">
-				<div className="form-control">
+			<div className="form-control">
+				<form action="submit">
 					<div className="row">
 						<div className="col-md-6">
-							Lorem ipsum dolor, sit amet consectetur adipisicing
-							elit. Aperiam corrupti aliquam, molestiae facere
-							sunt, quam libero fugit esse culpa dolor beatae odit
-							vel amet repudiandae placeat nisi, earum rerum ipsa.
+							<label htmlFor="fullName">Full Name</label>
+							<input
+								type="text"
+								id="fullName"
+								className="form-control myInput"
+								placeholder="How we'll address you"
+							/>
+							<label htmlFor="email">Email</label>
+							<input
+								type="text"
+								className="form-control"
+								placeholder="Email"
+							/>
 						</div>
-						<div className="col-md-6"></div>
+
+						<div className="col-md-6">
+							<label htmlFor="message">Your message</label>
+							<textarea
+								className="form-control"
+								name="message"
+								id="message"
+								cols="60"
+								rows="5"
+								placeholder="Let us know your needs"></textarea>
+						</div>
 					</div>
-				</div>
-			</form>
+					<div className="row">
+						<button
+							className="btn btn-light"
+							type="button"
+							role="submit">
+							submit
+						</button>
+					</div>
+				</form>
+			</div>
 		</>
 	);
 };

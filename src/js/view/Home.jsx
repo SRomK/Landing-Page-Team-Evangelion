@@ -7,8 +7,12 @@ import ContactForm from "../component/Form.jsx";
 const Home = () => {
 	return (
 		<div>
-			<FooterPage />
-			<ContactForm />
+			<div>
+				<ContactForm />
+			</div>
+			<div>
+				<FooterPage />
+			</div>
 		</div>
 	);
 };
