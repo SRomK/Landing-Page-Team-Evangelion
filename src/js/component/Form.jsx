@@ -19,7 +19,9 @@ const ContactForm = () => {
 								className="form-control"
 								placeholder="How we'll address you"
 							/>
-							<label htmlFor="email">Email</label>
+							<label htmlFor="email" className="email">
+								Email
+							</label>
 							<input
 								type="text"
 								className="form-control"
@@ -28,7 +30,9 @@ const ContactForm = () => {
 						</div>
 
 						<div className="col-md-6">
-							<label htmlFor="message">Your message</label>
+							<label htmlFor="message" className="">
+								Your message
+							</label>
 							<textarea
 								className="form-control"
 								name="message"
@@ -39,13 +43,15 @@ const ContactForm = () => {
 						</div>
 					</div>
 					<div className="row">
-						<button
-							onClick={handleClick}
-							className="btn btn-light form-control btnForm"
-							type="button"
-							role="submit">
-							Send
-						</button>
+						<div className="text-center">
+							<button
+								onClick={handleClick}
+								className="btn btn-dark form-control btnForm"
+								type="button"
+								role="submit">
+								Send
+							</button>
+						</div>
 					</div>
 				</form>
 			</div>
