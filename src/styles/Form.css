@@ -5,4 +5,5 @@ input:hover, textarea:hover {
 
 input, textarea {
     border: 2px ridge steelblue !important;
+    background: transparent;
 }
