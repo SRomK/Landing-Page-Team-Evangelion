@@ -1,0 +1,12 @@
+.footerSpan {
+    margin-left: 0.5em;
+}
+
+.myFooter {
+    border: 3px solid black;
+}
+
+.footerSpan:hover {
+ border-bottom: 1px solid black;
+ cursor: pointer;
+}
