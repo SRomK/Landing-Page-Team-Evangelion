@@ -24,14 +24,14 @@ const FooterPage = () => {
 						<i class="fab fa-github-square"></i>
 					</span>
 				</div>
-				<div className="col-md-6">
+				<div className="col-md-6 footerRight">
 					All rights reserved{" "}
 					<span>
-						<i class="far fa-copyright"></i>
+						<i className="far fa-copyright"> </i>
 					</span>
 					Team Evangelion. <br />
-					Team Evangelion is commited on the full stack development
-					achieving high standars and creative solutions.
+					Team Evangelion aims to achieve high <br /> standars and
+					creative solutions.
 				</div>
 			</div>
 		</>
