@@ -6,7 +6,7 @@ import ReactDOM from "react-dom";
 import "../styles/Index.css";
 
 //import your own components
-import Home from "../view/Home.jsx";
+import Home from "/workspace/react-hello/src/view/Home.jsx";
 
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));

@@ -1,27 +1,24 @@
 import React from "react";
+import "../../styles/Navbar.css";
 
 const Navbar = () => {
 	return (
 		<>
-		<Nav> 
-			<NavLink>
+			<div className="topNav">
+				<img
+					src="https://images6.fanpop.com/image/photos/38600000/-EVA-01-neon-genesis-evangelion-38625280-200-200.jpg"
+					alt="Logo"
+					width="30"
+					height="24"
+					className="logoImage"
+				/>
 
-			<h1>Team Evangelion</h1>
-			</NavLink>
-			<bars/>
-			<NavMenu>
-				<NavLink to="/GitHub" activeStyle>GitHub</NavLink>
-				<NavLink to="/LinkedIn" activeStyle>LinkedIn</NavLink>
-				<NavLink to="/Blog" activeStyle>Blog</NavLink>
-				<NavLink to="/ContactUs" activeStyle>ContactUs</NavLink>
+				<h2>Team Evangelion</h2>
 
-			</NavMenu>
-			<NavBtn>
-				<NavBtnLink to="/signin">
-				Newsletter
-				</NavBtnLink>
-			</NavBtn>
-		</Nav>
+				<a href="#news">Services</a>
+				<a href="#contact">Newsletter</a>
+				<a href="#about">About</a>
+			</div>
 		</>
 	);
 };
