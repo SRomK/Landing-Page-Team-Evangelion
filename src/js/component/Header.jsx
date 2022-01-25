@@ -10,9 +10,9 @@ const Header = () => {
 	return (
 		<>
 			<div className="headerBackground container-fluid">
-				<div className="row">
-					<div className="col-md-5 textoClass">
-						<section className="textoHeader">
+				<div className="row rowUno">
+					<div className="col-md-5 textoClassUno">
+						<section className="textoHeaderUno">
 							<h3 className="tituloFront">
 								Front end Development (Client side)
 							</h3>
@@ -30,7 +30,7 @@ const Header = () => {
 						</section>
 					</div>
 					<div className="col-md-1"></div>
-					<div className="col-md-6 Img_container ">
+					<div className="col-md-6 imgContainerPilotos">
 						<img
 							className="imgPilotos"
 							src={imgs[0]}
@@ -38,8 +38,8 @@ const Header = () => {
 						/>
 					</div>
 				</div>
-				<div className="row">
-					<div className="col-md-5 ">
+				<div className="row rowDos">
+					<div className="col-md-6 imgContainerNerv">
 						<img
 							className="imgNerv"
 							src={imgs[1]}
@@ -47,8 +47,8 @@ const Header = () => {
 						/>
 					</div>
 					<div className="col-md-1"></div>
-					<div className="col-md-6 textoClass">
-						<section className="textoHeader">
+					<div className="col-md-5 textoClassDos">
+						<section className="textoHeaderDos">
 							<h3 className="tituloBack">
 								Back end Development (Server side)
 							</h3>
