@@ -1,0 +1,8 @@
+input:hover, textarea:hover {
+    border: 3px ridge steelblue !important;
+
+}
+
+input, textarea {
+    border: 2px ridge steelblue !important;
+}

@@ -3,6 +3,9 @@ import React from "react";
 import "../../styles/Form.css";
 
 const ContactForm = () => {
+	const handleClick = (e) => {
+		e.preventDefault();
+	};
 	return (
 		<>
 			<div className="form-control">
@@ -13,7 +16,7 @@ const ContactForm = () => {
 							<input
 								type="text"
 								id="fullName"
-								className="form-control myInput"
+								className="form-control"
 								placeholder="How we'll address you"
 							/>
 							<label htmlFor="email">Email</label>
@@ -37,10 +40,11 @@ const ContactForm = () => {
 					</div>
 					<div className="row">
 						<button
-							className="btn btn-light"
+							onClick={handleClick}
+							className="btn btn-light form-control btnForm"
 							type="button"
 							role="submit">
-							submit
+							Send
 						</button>
 					</div>
 				</form>
