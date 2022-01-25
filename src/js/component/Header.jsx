@@ -20,8 +20,11 @@ const Header = () => {
 							cumque! Odio quae nemo pariatur repellat!
 						</h2>
 					</div>
-					<div className="col-6-md">
-						<img src="" alt="" />
+					<div className="col-6-md imgPilotos">
+						<img
+							src="https://i0.wp.com/hipertextual.com/wp-content/uploads/2014/05/Evangelion-02.jpg?fit=1200%2C675&ssl=1"
+							alt=""
+						/>
 					</div>
 				</div>
 			</div>

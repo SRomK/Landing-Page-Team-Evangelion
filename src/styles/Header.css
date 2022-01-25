@@ -17,3 +17,12 @@
 .textoClass{
     text-align: justify;
 }
+
+.imgPilotos{
+    margin-left: 50%;
+    border-radius: 80px;
+    margin-top: 0%;
+    width: 100%;
+    height: auto;
+
+}
