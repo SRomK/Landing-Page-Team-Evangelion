@@ -88,9 +88,13 @@
     border-radius: 95px;   
     width: 65%;
     height: auto;
-    border: 5px black;
     align-self: center;
     animation: rotate-scale-down-hor 0.65s linear both;
+    border:3px solid rgb(12, 10, 10);
+      box-shadow: 10px 10px 5px rgb(133, 58, 108);
+      -moz-box-shadow: 10px 10px 5px rgb(228, 22, 211);
+      -webkit-box-shadow: 10px 10px 5px rgb(72, 44, 83);
+      -khtml-box-shadow: 10px 10px 5px rgb(196, 123, 238);
 }
 
 
@@ -99,12 +103,22 @@
     border-radius: 95px;   
     width: 55%;
     height: auto;
-    border: 5px black;
     align-self: center;
     animation: rotate-scale-down-hor 0.65s linear both;
+    border:3px solid rgb(12, 10, 10);
+      box-shadow: 10px 10px 5px rgb(133, 58, 108);
+      -moz-box-shadow: 10px 10px 5px rgb(228, 22, 211);
+      -webkit-box-shadow: 10px 10px 5px rgb(72, 44, 83);
+      -khtml-box-shadow: 10px 10px 5px rgb(196, 123, 238);
 
 }
+
+/*#hoverAnim:hover{
+    animation: rotate-scale-down-hor 0.65s linear both;
+
+}*/
  
+/*hacer un id en la etiqueta para poner las animaitons cos con hover y poner menu hamburguesa para que sea responsive */
 
 @keyframes rotate-scale-down-hor {
     0% {
