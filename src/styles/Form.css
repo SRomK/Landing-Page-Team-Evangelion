@@ -1,0 +1,23 @@
+input:hover, textarea:hover {
+    border: 3px ridge steelblue !important;
+
+}
+
+input, textarea {
+    border: 2px ridge steelblue !important;
+    background: transparent;
+}
+
+form {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.email {
+    margin-top: 2em;
+}
+
+.btnForm {
+    width: 10%;
+    margin-top: 1em;
+}
