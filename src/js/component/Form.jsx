@@ -20,7 +20,7 @@ const ContactForm = () => {
 								placeholder="How we'll address you"
 							/>
 							<label htmlFor="email" className="email">
-								Email
+								Your prefered email
 							</label>
 							<input
 								type="text"
