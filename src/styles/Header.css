@@ -15,6 +15,7 @@
     font-weight: bold;
     font-size: 120%;
     padding: 2rem;
+    margin-top: 10%;
 }
 
 .tituloFront{
@@ -88,6 +89,7 @@
     border-radius: 95px;   
     width: 65%;
     height: auto;
+    margin-top: 15%;
     align-self: center;
     animation: rotate-scale-down-hor 0.65s linear both;
     border:3px solid rgb(12, 10, 10);
@@ -96,7 +98,6 @@
       -webkit-box-shadow: 10px 10px 5px rgb(72, 44, 83);
       -khtml-box-shadow: 10px 10px 5px rgb(196, 123, 238);
 }
-
 
 
 .imgNerv{
@@ -145,3 +146,5 @@
               transform: scale(1);
     }
   }
+
+
