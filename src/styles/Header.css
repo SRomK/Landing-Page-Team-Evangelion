@@ -1,0 +1,98 @@
+.headerBackground{
+    height: 100vh;
+    background-color: rgb(73 21 39);
+    background:url("https://media.gq.com.mx/photos/5f46c2044464f9b88fb25e99/master/w_3000,h_1688,c_limit/evangelion-neon-genesis.jpg");
+}
+
+.textoHeaderUno{
+    color: rgb(130, 168, 238);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    padding: 2rem;
+}
+
+.tituloFront{
+    color:rgb(156, 156, 190);
+    font-size: 120%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.textoFront{
+    color: rgb(105, 148, 228);
+    font-size: 78%;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.textoHeaderDos{
+    color: rgb(130, 168, 238);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    padding: 2rem;
+    margin-bottom: 2%;
+}
+
+.tituloBack{
+    color:rgb(156, 156, 190);
+    font-size: 120%;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 25%;
+}
+
+.textoBack{
+    color: rgb(105, 148, 228);
+    font-size: 78%;
+    text-align: justify;
+    font-weight: bold;
+    margin-right: 25%;
+}
+
+.textoClassUno{
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+
+.textoClassDos{
+    text-align: center;
+    margin-top: 4%;
+}
+
+.imgContainerPilotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.imgContainerNerv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.imgPilotos{
+    border-radius: 95px;   
+    width: 70%;
+    height: auto;
+    border: 5px black;
+    align-self: center;
+}
+
+
+
+.imgNerv{
+    border-radius: 95px;   
+    width: 60%;
+    height: auto;
+    border: 5px black;
+    align-self: center;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+ 
