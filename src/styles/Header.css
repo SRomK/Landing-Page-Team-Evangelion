@@ -1,61 +1,67 @@
+/* *{
+    border: 1px solid red;
+} */
+
 .headerBackground{
     height: 100vh;
     background-color: rgb(73 21 39);
     background:url("https://media.gq.com.mx/photos/5f46c2044464f9b88fb25e99/master/w_3000,h_1688,c_limit/evangelion-neon-genesis.jpg");
+    background-size: cover;
 }
 
 .textoHeaderUno{
     color: rgb(130, 168, 238);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 120%;
     padding: 2rem;
 }
 
 .tituloFront{
     color:rgb(156, 156, 190);
-    font-size: 120%;
+    font-size: 110%;
     text-align: center;
     font-weight: bold;
 }
 
 .textoFront{
     color: rgb(105, 148, 228);
-    font-size: 78%;
+    font-size: 85%;
     text-align: justify;
     font-weight: bold;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .textoHeaderDos{
     color: rgb(130, 168, 238);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 120%;
     padding: 2rem;
     margin-bottom: 2%;
 }
 
 .tituloBack{
     color:rgb(156, 156, 190);
-    font-size: 120%;
+    font-size: 110%;
     text-align: center;
     font-weight: bold;
-    margin-right: 25%;
 }
 
 .textoBack{
     color: rgb(105, 148, 228);
-    font-size: 78%;
+    font-size: 85%;
     text-align: justify;
     font-weight: bold;
-    margin-right: 25%;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
 }
 
 .textoClassUno{
     text-align: center;
     margin-bottom: 4%;
+    margin-top: 4%;
 }
-
 
 .textoClassDos{
     text-align: center;
@@ -69,6 +75,8 @@
     padding: 2rem;
 }
 
+
+
 .imgContainerNerv{
     display: flex;
     flex-direction: column;
@@ -78,21 +86,48 @@
 
 .imgPilotos{
     border-radius: 95px;   
-    width: 70%;
+    width: 65%;
     height: auto;
     border: 5px black;
     align-self: center;
+    animation: rotate-scale-down-hor 0.65s linear both;
 }
 
 
 
 .imgNerv{
     border-radius: 95px;   
-    width: 60%;
+    width: 55%;
     height: auto;
     border: 5px black;
     align-self: center;
-    margin-right: 10%;
-    margin-top: 2%;
+    animation: rotate-scale-down-hor 0.65s linear both;
+
 }
  
+
+@keyframes rotate-scale-down-hor {
+    0% {
+      -webkit-transform: scale(1) rotateX(0);
+              transform: scale(1) rotateX(0);
+    }
+    50% {
+      -webkit-transform: scale(0.5) rotateX(-180deg);
+              transform: scale(0.5) rotateX(-180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateX(-360deg);
+              transform: scale(1) rotateX(-360deg);
+    }
+  }
+
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }

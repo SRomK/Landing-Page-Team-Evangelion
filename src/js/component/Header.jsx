@@ -11,7 +11,7 @@ const Header = () => {
 		<>
 			<div className="headerBackground container-fluid">
 				<div className="row rowUno">
-					<div className="col-md-5 textoClassUno">
+					<div className="col-md-6 textoClassUno">
 						<section className="textoHeaderUno">
 							<h3 className="tituloFront">
 								Front end Development (Client side)
@@ -29,7 +29,6 @@ const Header = () => {
 							</p>
 						</section>
 					</div>
-					<div className="col-md-1"></div>
 					<div className="col-md-6 imgContainerPilotos">
 						<img
 							className="imgPilotos"
@@ -46,8 +45,7 @@ const Header = () => {
 							alt="pilotos evangelion"
 						/>
 					</div>
-					<div className="col-md-1"></div>
-					<div className="col-md-5 textoClassDos">
+					<div className="col-md-6 textoClassDos">
 						<section className="textoHeaderDos">
 							<h3 className="tituloBack">
 								Back end Development (Server side)
