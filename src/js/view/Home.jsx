@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "../component/Navbar.jsx";
+import Header from "../component/Header.jsx";
 import Card from "../component/Card.jsx";
 import FooterPage from "../component/Footer.jsx";
 import ContactForm from "../component/Form.jsx";
@@ -9,6 +11,8 @@ import ContactForm from "../component/Form.jsx";
 const Home = () => {
 	return (
 		<div>
+			<Navbar />
+			<Header />
 			<div className="row">
 				<Card
 					imgSrc="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"

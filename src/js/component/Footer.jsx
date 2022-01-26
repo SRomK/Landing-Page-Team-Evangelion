@@ -7,7 +7,8 @@ const FooterPage = () => {
 		<>
 			<div className="row myFooter">
 				<div className="col-md-6">
-					Siguenos en nuestras redes sociales<br />
+					Siguenos en nuestras redes sociales
+					<br />
 					<span className="footerSpan">
 						<i className="fab fa-twitter-square"></i>
 					</span>
