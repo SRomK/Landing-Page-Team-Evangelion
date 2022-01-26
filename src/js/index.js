@@ -7,7 +7,7 @@ import "../styles/Index.css";
 import "../styles/Navbar.css";
 
 //import your own components
-import Home from "/workspace/react-hello/src/view/Home.jsx";
+import Home from "/workspace/Landing-Page-Team-Evangelion/src/js/view/Home.jsx";
 
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));
