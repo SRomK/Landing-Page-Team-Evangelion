@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "/workspace/react-hello/src/js/component/Navbar.jsx";
+import Navbar from "../js/component/Navbar.jsx";
 //include images into your bundle
 
 //create your first component
