@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 
 // include your styles into the webpack bundle
 import "../styles/Index.css";
+import "../styles/Navbar.css";
 
 //import your own components
 import Home from "/workspace/Landing-Page-Team-Evangelion/src/js/view/Home.jsx";

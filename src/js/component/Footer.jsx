@@ -7,7 +7,7 @@ const FooterPage = () => {
 		<>
 			<div className="row myFooter">
 				<div className="col-md-6">
-					Siguenos en nuestras redes <br />
+					Siguenos en nuestras redes sociales<br />
 					<span className="footerSpan">
 						<i className="fab fa-twitter-square"></i>
 					</span>
@@ -24,14 +24,14 @@ const FooterPage = () => {
 						<i className="fab fa-github-square"></i>
 					</span>
 				</div>
-				<div className="col-md-6">
-					All rights reserved{" "}
+				<div className="col-md-6 footerRight">
+					All Rights Reserved
 					<span>
 						<i className="far fa-copyright"></i>
 					</span>
 					Team Evangelion. <br />
-					Team Evangelion is commited on the full stack development
-					achieving high standars and creative solutions.
+					Team Evangelion aims to achieve high <br /> standars and
+					creative solutions.
 				</div>
 			</div>
 		</>

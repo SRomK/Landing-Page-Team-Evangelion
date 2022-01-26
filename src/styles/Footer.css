@@ -1,12 +1,26 @@
 .footerSpan {
     margin-left: 0.5em;
+    font-size: 18pt;
+  
 }
 
 .myFooter {
     border: 3px solid black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 1em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background: black;
+    color: blueviolet;
 }
 
 .footerSpan:hover {
  border-bottom: 1px solid black;
  cursor: pointer;
+}
+
+.footerRight{
+    text-align: right;
 }
