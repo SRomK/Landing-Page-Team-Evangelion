@@ -25,7 +25,7 @@ const FooterPage = () => {
 					</span>
 				</div>
 				<div className="col-md-6 footerRight">
-					All rights reserved
+					All Rights Reserved
 					<span>
 						<i className="far fa-copyright"> </i>
 					</span>
