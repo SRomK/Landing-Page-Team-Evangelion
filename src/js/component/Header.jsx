@@ -41,6 +41,7 @@ const Header = () => {
 					<div className="col-md-6 imgContainerNerv">
 						<img
 							className="imgNerv"
+							id="hoverAnim"
 							src={imgs[1]}
 							alt="pilotos evangelion"
 						/>
