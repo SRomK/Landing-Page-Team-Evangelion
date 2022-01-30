@@ -9,6 +9,7 @@
     border-radius: 0;
     margin-top: 0.2em;
     border-bottom: 0;
+    margin-top: 10em;
 }
 .myCard-Footer{
     background:rgb(130, 168, 238);
@@ -16,4 +17,16 @@
     border-radius: 0;
     height: 200px;
     max-height: 200px;
+    animation: party 3s ease-in-out;
 }
+
+@keyframes party {
+    0%    { opacity: 0; }
+    20%   { opacity: 1; }
+    80%   { opacity: 0; }
+    100%  { opacity: 1; }
+  }
+  
+  .animate-this-element {
+   
+  }
