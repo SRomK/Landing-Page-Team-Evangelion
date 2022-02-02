@@ -1,73 +1,82 @@
-/* *{
-    border: 1px solid red;
-} */
-
-.headerBackground{
-    height: 100vh;
-    background-color: rgb(73 21 39);
+.headerBackground {
     background:url("https://media.gq.com.mx/photos/5f46c2044464f9b88fb25e99/master/w_3000,h_1688,c_limit/evangelion-neon-genesis.jpg");
     background-size: cover;
 }
 
-.textoHeaderUno{
-    color: rgb(130, 168, 238);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    font-size: 120%;
+
+.textoClassUno{
     padding: 2rem;
     margin-top: 10%;
 }
 
 .tituloFront{
     color:rgb(156, 156, 190);
-    font-size: 110%;
+    font-size: 2em;
     text-align: center;
     font-weight: bold;
+    margin-left: 25%;
 }
 
 .textoFront{
     color: rgb(105, 148, 228);
-    font-size: 85%;
-    text-align: justify;
+    font-size: 1em;
+    margin-left: 20%;
+    text-align:center;
     font-weight: bold;
     animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
-.textoHeaderDos{
-    color: rgb(130, 168, 238);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    font-size: 120%;
+.imgPilotos{  
+    width: 50%;
+    height: auto;
+    border-radius: 1em;
+    margin-top: 10%;
+    align-self: center;
+    animation: rotate-scale-down-hor 0.65s linear both;
+    border:3px solid rgb(12, 10, 10);
+      box-shadow: 10px 10px 5px rgb(133, 58, 108);
+      -moz-box-shadow: 10px 10px 5px rgb(228, 22, 211);
+      -webkit-box-shadow: 10px 10px 5px rgb(72, 44, 83);
+      -khtml-box-shadow: 10px 10px 5px rgb(196, 123, 238);
+}
+
+.textoClassDos{
     padding: 2rem;
-    margin-bottom: 2%;
+    margin-top: 30%;
 }
 
 .tituloBack{
     color:rgb(156, 156, 190);
-    font-size: 110%;
+    font-size: 2em;
     text-align: center;
     font-weight: bold;
 }
 
 .textoBack{
     color: rgb(105, 148, 228);
-    font-size: 85%;
-    text-align: justify;
+    font-size: 1em;
+    text-align: center;
     font-weight: bold;
     animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.imgNerv{
+    width: 40%;
+    height: auto;
+    border-radius: 1em;
+    margin-bottom: 10px;
+    height: auto;
+    margin-left: 40%;
+    align-self: center;
+    animation: rotate-scale-down-hor 0.65s linear both;
+    border:3px solid rgb(12, 10, 10);
+      box-shadow: 10px 10px 5px rgb(133, 58, 108);
+      -moz-box-shadow: 10px 10px 5px rgb(228, 22, 211);
+      -webkit-box-shadow: 10px 10px 5px rgb(72, 44, 83);
+      -khtml-box-shadow: 10px 10px 5px rgb(196, 123, 238);
 
 }
 
-.textoClassUno{
-    text-align: center;
-    margin-bottom: 4%;
-    margin-top: 4%;
-}
-
-.textoClassDos{
-    text-align: center;
-    margin-top: 4%;
-}
 
 .imgContainerPilotos{
     display: flex;
@@ -76,50 +85,6 @@
     padding: 2rem;
 }
 
-
-
-.imgContainerNerv{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2rem;
-}
-
-.imgPilotos{
-    border-radius: 95px;   
-    width: 65%;
-    height: auto;
-    margin-top: 15%;
-    align-self: center;
-    animation: rotate-scale-down-hor 0.65s linear both;
-    border:3px solid rgb(12, 10, 10);
-      box-shadow: 10px 10px 5px rgb(133, 58, 108);
-      -moz-box-shadow: 10px 10px 5px rgb(228, 22, 211);
-      -webkit-box-shadow: 10px 10px 5px rgb(72, 44, 83);
-      -khtml-box-shadow: 10px 10px 5px rgb(196, 123, 238);
-}
-
-
-.imgNerv{
-    border-radius: 95px;   
-    width: 55%;
-    height: auto;
-    align-self: center;
-    animation: rotate-scale-down-hor 0.65s linear both;
-    border:3px solid rgb(12, 10, 10);
-      box-shadow: 10px 10px 5px rgb(133, 58, 108);
-      -moz-box-shadow: 10px 10px 5px rgb(228, 22, 211);
-      -webkit-box-shadow: 10px 10px 5px rgb(72, 44, 83);
-      -khtml-box-shadow: 10px 10px 5px rgb(196, 123, 238);
-
-}
-
-/*#hoverAnim:hover{
-    animation: rotate-scale-down-hor 0.65s linear both;
-
-}*/
- 
-/*hacer un id en la etiqueta para poner las animaitons cos con hover y poner menu hamburguesa para que sea responsive */
 
 @keyframes rotate-scale-down-hor {
     0% {

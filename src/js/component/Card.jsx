@@ -5,19 +5,17 @@ import "../../styles/Card.css";
 const Card = (props) => {
 	return (
 		<>
-			<div className="col-md-6">
-				<div className="card myCard">
-					<div className="card-body text-center">
-						<img
-							className="img-fluid myImg"
-							src={props.imgSrc}
-							alt={props.imgAlt}
-						/>
-					</div>
+			<div className="card myCard">
+				<div className="card-body text-center">
+					<img
+						className="img-fluid myImg"
+						src={props.imgSrc}
+						alt={props.imgAlt}
+					/>
 				</div>
-				<div className="card-footer myCard-Footer">
-					<p>{props.texto}</p>
-				</div>
+			</div>
+			<div className="card-footer myCard-Footer">
+				<p>{props.texto}</p>
 			</div>
 		</>
 	);

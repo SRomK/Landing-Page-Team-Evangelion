@@ -2,25 +2,16 @@
     background-color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: auto;
     z-index: 1;
-    width: 100%;
-    position: fixed;
-    padding: 0% 5% 1% 5%;
 }
 
 .logoImage{
-    align-items: flex-start;
-    display: inline-block;
-    border-radius: 8px;
-    text-align: start;
-    margin-top: 7px;
-    width: 4%;
-    height: 4%;    
+    width: 100px;
+    height: auto;
 }
 
-.topNav a{
+.topNav a, h2{
+    margin-left: 2%;
     color: rgb(204, 101, 245);
     font-weight: bold;
     font-size: larger;
@@ -29,8 +20,6 @@
 
 .titleTeam{
     color: rgb(204, 101, 245);
-    margin-left: -15%;
-    margin-right: -10%;
     font-weight: bold;
     border-bottom: 5px solid blueviolet;
     font-size: 2vw;

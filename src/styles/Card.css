@@ -1,6 +1,6 @@
 .myImg {
-    max-height: 200px !important;
-    height: 200px;
+    height: 200px !important;
+    width: auto;
 }
 
 .myCard {
@@ -14,6 +14,5 @@
     background:rgb(130, 168, 238);
     border: 3px  blueviolet solid !important;
     border-radius: 0;
-    height: 200px;
-    max-height: 200px;
+    min-height: 200px;
 }

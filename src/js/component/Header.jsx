@@ -9,7 +9,7 @@ let imgs = [
 const Header = () => {
 	return (
 		<>
-			<div className="headerBackground container-fluid">
+			<div className="headerBackground">
 				<div className="row rowUno">
 					<div className="col-md-6 textoClassUno">
 						<section className="textoHeaderUno">
@@ -29,7 +29,7 @@ const Header = () => {
 							</p>
 						</section>
 					</div>
-					<div className="col-md-6 imgContainerPilotos">
+					<div className="col-md-6 mt-3 imgContainerPilotos">
 						<img
 							className="imgPilotos"
 							src={imgs[0]}
@@ -37,7 +37,7 @@ const Header = () => {
 						/>
 					</div>
 				</div>
-				<div className="row rowDos">
+				<div className="row mt-5 rowDos">
 					<div className="col-md-6 imgContainerNerv">
 						<img
 							className="imgNerv"
@@ -45,7 +45,7 @@ const Header = () => {
 							alt="pilotos evangelion"
 						/>
 					</div>
-					<div className="col-md-6 textoClassDos">
+					<div className="col-md-6 mt-3 textoClassDos">
 						<section className="textoHeaderDos">
 							<h3 className="tituloBack">
 								Back end Development (Server side)

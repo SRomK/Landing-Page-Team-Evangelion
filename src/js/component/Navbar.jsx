@@ -12,7 +12,6 @@ const Navbar = () => {
 				/>
 
 				<h2 className="titleTeam">Team Evangelion</h2>
-
 				<a href="#news">Services</a>
 				<a href="#contact">Newsletter</a>
 				<a href="#about">About</a>
