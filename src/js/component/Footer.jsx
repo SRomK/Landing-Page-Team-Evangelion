@@ -5,7 +5,7 @@ import "../../styles/Footer.css";
 const FooterPage = () => {
 	return (
 		<>
-			<div className="row myFooter">
+			<div className="row myFooter ">
 				<div className="col-md-6">
 					Siguenos en nuestras redes sociales
 					<br />
