@@ -1,17 +1,13 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
-</p>
+![4Geeks Logo](https://4geeksacademy.com//images/4geeks-logo.png)
+# Landing Page with React
+## Owners:
+###     - Sofia 
+###     - Javier 
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
-
-##### Download the boilerplate using git
-
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
+## Explicación del proceso
+Hemos implementado un esquema de componentes jsx para cada sección de la landing: navbar, header, cards, form y footer. Y por separado los estilos en css para cada componente. Luego conectamos nuestros componentes dentro de la vista de la landing, en el componente Home.jsx. Hemos utilizado las columnas y rows de bootstrap para la organización de los elementos de nuestra landing.
+## Compilar el código
+Icono de remote explorer y seleccionar ``open browser``en el puerto 3000.
 
 ##### and install the npm package:
 ```
@@ -26,16 +22,3 @@ For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
 You can update the `styles/index.css` or `js/index.js` depending on your needs.
 Add more files into your, `./src/js/components` or styles folder as you need them.
 
-## Publish your website!
-
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
-
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
-
-## Other features
-
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
